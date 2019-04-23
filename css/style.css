@@ -19,6 +19,22 @@ section {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: white;
+}
+
+
+
+i {
+  margin-left: 10px;
+  display: inline-block;
+
+}
+
 /* ========== HOME ========== */
 
 #home {
@@ -56,13 +72,7 @@ p {
 
 }
 
-.logo {
-  width: 10%;
-  position: absolute;
-  left: 45%;
-  top: 30%;
 
-}
 
 
 
@@ -160,7 +170,7 @@ img {
 .skill-icon {
   width: 15%;
   height: 15%;
-  background-color: blue;
+  /* background-color: blue; */
   display: inline-block;
 
 }
@@ -214,20 +224,68 @@ li {
   background-color:#FFE4E1;
 }
 
-/* ========== NON-tech-experience ========== */
-
-#none-tech-experience {
-  background-color: rgb(247,	227,	213	)
-}
-
 /* ========== PERSONAL ========== */
 
-#personal {
+#end {
   background-color: rgb(62,	91,	99)
+}
+
+#about {
+  /* width: 50%; */
+  height: 70vh;
+  /* float: left; */
+
+}
+
+.logo {
+  width: 20%;
+  position: relative;
+  left: 40%;
+  top: 30%;
+  margin-bottom: 3%;
+}
+
+.logo img {
+  border-radius: 10px;
+
+}
+
+.center-div {
+  position: relative;
+  top: 30%;
+  width: 80%;
+  left: 10%;
+}
+#about .center-div {
+  top: 15%;
+}
+
+.icons i{
+  font-size: 30px;
+}
+.icons {
+  display: inline-block;
+}
+
+#contact {
+  /* width: 50%; */
+  height: 30vh;
+  /* float: left; */
 }
 
 /* ========== CONTACT ========== */
 
 #contact {
   background-color: rgb(221,	224, 223)
+}
+
+/* ======== RESPONSIVE ======== */
+
+
+@media (max-height: 680px), screen and (orientation: portrait) {
+
+  body {
+    font-size: 40px;
+  }
+
 }
